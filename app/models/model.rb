@@ -1,6 +1,6 @@
 class Dog 
   
-  @@all = []
+  self = []
   
   attr_accessor :name, :breed, :age 
   
@@ -12,7 +12,7 @@ class Dog
   end 
   
   def self.all
-    @@all
+    self
   end 
 
 
