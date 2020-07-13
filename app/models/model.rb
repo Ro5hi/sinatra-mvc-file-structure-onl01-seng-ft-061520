@@ -7,6 +7,10 @@ class Dog
     @breed = breed 
     @age = age 
   end 
+  
+  def self 
+    self.all 
+  end 
 
 
 end
